@@ -6,6 +6,7 @@
     font: inherit;
     font-size: 62.5%;
 }
+/***** Header ********/
 .header{
     min-width:100% ;
     background-color: brown;
@@ -40,6 +41,25 @@
 .ham-menu{
     display: none;
     margin-right: 1em ;
+}
+.ham-menu-content{
+    min-width: 100vw;
+    text-align: right;
+    font-family: 'Comfortaa','Courier New', Courier, monospace;
+    display: none;
+}
+.ham-menu-content ul{
+    min-height: inherit;
+    font-size: 4rem;
+}
+.ham-menu-content ul li{
+    border-bottom: 1px solid #eee;
+}
+.ham-menu-content ul li a{
+    text-decoration: none;
+    min-width: inherit;
+    margin-right: 1em;
+    color: #000;
 }
 @media only screen and (width < 768px){
     .nav ul{
