@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font: inherit;
+    font-size: 62.5%;
+}
+.header{
+    min-width:100% ;
+    background-color: brown;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 6rem;
+    font-family: 'Comfortaa','Courier New', Courier, monospace;
+    color: #000;
+}
+.img-name{
+    display: flex;
+    align-items: center;
+}
+.img-name img{
+    width: 7rem;
+    border-radius: 50%;
+    margin: 0.3rem;
+}
+.nav ul{
+    display: flex;
+    align-items: center;
+    font-size: 4rem;
+    list-style: none;
+}
+.nav ul li a{
+    text-decoration: none;
+    margin-right: 2em;
+    color: inherit;
+
+}
+.ham-menu{
+    display: none;
+    margin-right: 1em ;
+}
+@media only screen and (width < 768px){
+    .nav ul{
+        display: none;
+    }
+    .ham-menu{
+        display: block;
+    }     
+}
