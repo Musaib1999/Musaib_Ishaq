@@ -9,13 +9,13 @@
 /***** Header ********/
 .header{
     min-width:100% ;
-    background-color: brown;
     display: flex;
     align-items: center;
     justify-content: space-between;
     font-size: 6rem;
     font-family: 'Comfortaa','Courier New', Courier, monospace;
     color: #000;
+    border-bottom: 1px solid #eee;
 }
 .img-name{
     display: flex;
@@ -47,6 +47,7 @@
     text-align: right;
     font-family: 'Comfortaa','Courier New', Courier, monospace;
     display: none;
+    position: absolute;
 }
 .ham-menu-content ul{
     min-height: inherit;
@@ -68,4 +69,25 @@
     .ham-menu{
         display: block;
     }     
+}
+
+/********introduction page**********/
+.intro{
+    background-image: url(./resources/cool-background.png);
+    background-size: cover;
+    width: 100%;
+    text-align: center;
+    font-family: 'Comfortaa' , sans-serif;
+}
+.intro{
+    width: 100%;
+    min-height: 85vh;
+
+}
+.intro h2{
+    font-size: 5rem;
+    padding: 4em 0 1em 0;
+}
+.intro p{
+    font-size: 3rem;
 }
