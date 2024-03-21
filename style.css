@@ -48,6 +48,7 @@
     font-family: 'Comfortaa','Courier New', Courier, monospace;
     display: none;
     position: absolute;
+    background-color: #eee;
 }
 .ham-menu-content ul{
     min-height: inherit;
@@ -87,7 +88,90 @@
 .intro h2{
     font-size: 5rem;
     padding: 4em 0 1em 0;
+    font-weight: 1000;
 }
 .intro p{
     font-size: 3rem;
+}
+@media only screen and (width < 768px){
+    .intro h2{
+        font-size: 3rem;
+    }
+    .intro p{
+        font-size:  1rem;
+    }
+}
+
+
+
+/*******About Me********/
+.about-and-skills{
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    gap: 5rem;
+    width: 100vw;
+    font-family: 'Comfortaa' , sans-serif;
+    text-align: center;
+}
+.about-and-skills-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
+    width: 100%;
+}
+.about-and-skills-heading h3{
+    font-size: 5rem;
+    padding: 2em 0 2em 0;
+    font-weight: 1000;
+}
+.about-and-skills-heading p{
+    font-size: 2rem;
+}
+.about h3{
+    font-family: 'Comfortaa' , sans-serif;
+    font-size: 3rem;
+    padding: 1em 0 1em 0;
+    font-weight: 1000;
+}
+.about p{
+    font-family: 'Caveat' , cursive;
+    font-size: 2rem;
+    padding: 0 1em;
+    line-height: 4rem;
+}
+.about p span{
+    font-weight: 1000;
+    color: darkgreen;
+}
+.skills h3{
+    font-family: 'Comfortaa' , sans-serif;
+    font-size: 3rem;
+    padding: 1em 0 1em 0;
+    font-weight: 1000;
+}
+.skills{
+    justify-content: space-around;
+}
+.skill{
+    display: inline-block;
+    font-family: 'Comfortaa' , sans-serif;
+    width: 20rem;
+    padding: 2rem 0;
+    margin: 2rem;
+    font-size: 20em;
+    background-color: rgb(62, 83, 244);
+}
+@media only screen and (width < 768px){
+    .about-and-skills{
+        display: block;
+    }
+    .about-and-skills-content{
+        display: block;
+    }
+    .about-and-skills-heading h3{
+        font-size: 3rem;
+    }
+    .about-and-skills-heading p{
+        font-size: 1.5rem;
+    }
 }
