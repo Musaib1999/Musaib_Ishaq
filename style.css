@@ -174,4 +174,30 @@
     .about-and-skills-heading p{
         font-size: 1.5rem;
     }
+    .skill{
+        width: 10rem;
+        font-size: 10em;
+    }
+}
+
+/**********CONTACT*********/
+.contact h3{
+    font-family: 'Comfortaa' , sans-serif;
+    font-size: 3rem;
+    padding: 1em 0 1em 0;
+    font-weight: 1000;
+    text-align: center;
+}
+.icons{
+    display: flex;
+    justify-content: space-evenly;
+}
+.contact .icons a img {
+    width: 8rem;
+
+}
+@media only screen and (width < 768px){
+    .contact .icons a img{
+        width: 5rem;
+    }
 }
