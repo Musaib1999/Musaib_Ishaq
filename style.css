@@ -121,7 +121,7 @@
 }
 .about-and-skills-heading h3{
     font-size: 5rem;
-    padding: 2em 0 2em 0;
+    padding: 1em 0 2em 0;
     font-weight: 1000;
 }
 .about-and-skills-heading p{
@@ -199,5 +199,43 @@
 @media only screen and (width < 768px){
     .contact .icons a img{
         width: 5rem;
+    }
+}
+
+/*********Footer*********/
+.footer{
+    background-color: #000;
+    font-family: 'Comfortaa' , sans-serif;
+    color: #fff;
+    text-align: center;
+    margin-top: 3rem;
+}
+.footer-text{
+    border-bottom: 1px solid #eee;
+    padding: 2rem;
+}
+.footer-text h5{
+    font-size: 3rem;
+    padding: 1rem;
+}
+.footer-text p{
+    font-size: 1rem;
+}
+.footer p{
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+.footer p a{
+    color: #fff;
+}
+@media only screen and (width < 768px){
+    .footer-text h5{
+        font-size: 2rem;
+    }
+    .footer-text p{
+        font-size: 0.9rem;
+    }
+    .footer p{
+        font-size: 0.8rem;
     }
 }
